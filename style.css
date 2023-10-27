@@ -1,0 +1,56 @@
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(4, 147, 121, 0.909);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputBox{
+    font-size: 20px;
+    font: bold;
+}
+
+.inputfield{
+    font-size: 15px;
+    font: bold;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    height: 35px;
+    width:150px ;
+}
+.form{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    
+}
+.result{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: black;
+    color: azure;
+    height: 40px;
+    width:150px ;
+    font-size: 18px;
+}
